@@ -43,7 +43,7 @@
     height: 143px;
     bottom: -143px;
     animation-delay: 1s;
-	background: url(whiteblob.png);
+	
 }
 .background li:nth-child(1) {
     left: 44%;
