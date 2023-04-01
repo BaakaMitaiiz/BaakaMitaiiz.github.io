@@ -33,6 +33,7 @@
     height: 0px;
     background: rgba(255, 255, 255, 0);
     animation: animate 19s linear infinite;
+	background-attachment:fixed;
 }
 
 
