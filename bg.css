@@ -1,3 +1,9 @@
+:root {
+	--animation-time: 2s;
+}
+#blob {
+	animation: animate var(--animation-time) linear infinite;
+}
 
 @keyframes animate {
     0%{
@@ -6,7 +12,7 @@
         border-radius: 0;
     }
     100%{
-        transform: translateY(-10000px) rotate(720deg);
+        transform: translateY(-1000px) rotate(720deg);
         opacity: 0;
         border-radius: 50%;
     }
@@ -21,7 +27,6 @@
     margin: 0;
     padding: 0;
     background: #000000;
-	background-attachment:fixed;
 	
     overflow: hidden;
 }
@@ -33,7 +38,6 @@
     height: 0px;
     background: rgba(255, 255, 255, 0);
     animation: animate 19s linear infinite;
-	background-attachment:fixed;
 }
 
 
@@ -45,7 +49,7 @@
     height: 143px;
     bottom: -143px;
     animation-delay: 1s;
-	
+	background: url(whiteblob.png);
 }
 .background li:nth-child(1) {
     left: 44%;
